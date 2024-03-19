@@ -17,6 +17,6 @@ public class BasicCanvas : MonoBehaviour
     }
     public void ButtonFunction()
     {
-        Debug.Log("this is a button");
+        Debug.Log("this is a button");  
     }
 }
