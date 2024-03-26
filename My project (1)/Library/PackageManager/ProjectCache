@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638466278549233621
-    m_Hash: 404525075
+      ticks: 638470424369324393
+    m_Hash: 2679980574
   m_LockFileStatus:
     m_FilePath: D:/GitHub Repos/gameproductiona2/My project (1)/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638466278549233621
-    m_Hash: 2073369929
+      ticks: 638470424387397563
+    m_Hash: 3473594499
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
