@@ -392,6 +392,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/PlayerControls.cs"
 "Assets/PlayerInput.cs"
+"Assets/SelfDestruct.cs"
+"Assets/SelfDestructCoroutine.cs"
 -langversion:9.0
 
 /deterministic
