@@ -1,6 +1,9 @@
+using System.Threading;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.InputSystem;
+using Unity.Collections;
+using System.Collections;
 
 
 public class PlayerInput : MonoBehaviour
@@ -15,6 +18,8 @@ public class PlayerInput : MonoBehaviour
     public GameObject collisionPrefab;
     public AudioClip collisionSound;
     public Vector3 respawnPosition;
+    public float spawndelay = 5f;
+    public bool waited = true;
     private void Awake()
     {
         controls = new PlayerControls();
@@ -31,6 +36,7 @@ public class PlayerInput : MonoBehaviour
         controls.Player.Respawn.performed += ctx => Respawn();
     }
 
+
     private void OnEnable()
     {
         controls.Player.Enable();
@@ -45,6 +51,7 @@ public class PlayerInput : MonoBehaviour
     {
         Vector3 move = new Vector3(moveInput.x, 0, moveInput.y) * Time.deltaTime * movementSpeed;
         transform.Translate(move, Space.World);
+
     }
 
     private void Jump()
@@ -69,17 +76,31 @@ public class PlayerInput : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
-            foreach (ContactPoint contact in collision.contacts)
+            
+                if (waited == true)
             {
-                GameObject instantiatedObject = Instantiate(collisionPrefab, contact.point, Quaternion.identity);
-                Destroy(instantiatedObject, 5f);
-                break;
+                foreach (ContactPoint contact in collision.contacts)
+                {
+                    GameObject instantiatedObject = Instantiate(collisionPrefab, contact.point, Quaternion.identity);
+                    Destroy(instantiatedObject, 5f);
+                    break;
+
+                }
+                if (collisionSound != null)
+                {
+                    audioSource.PlayOneShot(collisionSound);
+                }
+                waited = false;
+                StartCoroutine(SpawnDelayCount());
+
             }
-            if (collisionSound != null)
-            {
-                audioSource.PlayOneShot(collisionSound);
-            }
+
         }
 
+    }
+    IEnumerator SpawnDelayCount()
+    {
+        yield return new WaitForSeconds(spawndelay);
+        waited = true;
     }
 }
