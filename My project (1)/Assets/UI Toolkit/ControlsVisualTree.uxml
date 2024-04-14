@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Controls_Style.uss?fileID=7433441132597879392&amp;guid=e8275514830c9b54fa7192576060a0c2&amp;type=3#Controls_Style" />
+    <ui:VisualElement name="Container" style="flex-grow: 1;">
+        <ui:Label text="Click &quot;Space&quot; to Spawn Red Cube." class="header" />
+        <ui:Label text="Click &quot;Shift&quot; to Despawn Red Cube." class="header" />
+        <ui:Label text="Click &quot;Q&quot; to Hide/Show Green Cube." class="header" />
+    </ui:VisualElement>
+</ui:UXML>
