@@ -387,7 +387,26 @@
         377,
         378,
         379,
-        380
+        380,
+        381,
+        382,
+        383,
+        384,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        398,
+        399
       ],
       "DebugActionIndex": 0
     },
@@ -1373,10 +1392,6 @@
         302,
         303,
         316,
-        319,
-        320,
-        321,
-        322,
         323,
         324,
         325,
@@ -1388,8 +1403,6 @@
         331,
         332,
         333,
-        334,
-        335,
         336,
         337,
         338,
@@ -1432,7 +1445,26 @@
         375,
         376,
         377,
-        378
+        378,
+        379,
+        380,
+        381,
+        382,
+        383,
+        384,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397
       ],
       "DebugActionIndex": 6
     },
@@ -40036,8 +40068,6 @@
       "DebugActionIndex": 318
     },
     {
-<<<<<<< Updated upstream
-=======
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt",
       "DisplayName": "Writing Assembly-CSharp.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
@@ -40059,7 +40089,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 1763752,
-      "PayloadLength": 36408,
+      "PayloadLength": 36401,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "InputFlags": [],
@@ -40075,7 +40105,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1800247,
+      "PayloadOffset": 1800240,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -40355,7 +40385,7 @@
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
         "Assets/AudioManager.cs",
-        "Assets/Scenes/menu.cs",
+        "Assets/menu.cs",
         "C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll",
@@ -40964,7 +40994,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1800343,
+      "PayloadOffset": 1800336,
       "PayloadLength": 11980,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -41414,7 +41444,6 @@
       "DebugActionIndex": 335
     },
     {
->>>>>>> Stashed changes
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
       "DisplayName": "Copying UnityEngine.TestRunner.dll",
       "ActionType": "CopyFiles",
@@ -41433,7 +41462,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 319
+      "DebugActionIndex": 336
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.pdb",
@@ -41454,7 +41483,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 320
+      "DebugActionIndex": 337
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.dll",
@@ -41475,7 +41504,7 @@
       "ToBuildDependencies": [
         135
       ],
-      "DebugActionIndex": 321
+      "DebugActionIndex": 338
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.pdb",
@@ -41496,7 +41525,7 @@
       "ToBuildDependencies": [
         135
       ],
-      "DebugActionIndex": 322
+      "DebugActionIndex": 339
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.dll",
@@ -41517,7 +41546,7 @@
       "ToBuildDependencies": [
         176
       ],
-      "DebugActionIndex": 323
+      "DebugActionIndex": 340
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.pdb",
@@ -41538,7 +41567,7 @@
       "ToBuildDependencies": [
         176
       ],
-      "DebugActionIndex": 324
+      "DebugActionIndex": 341
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll",
@@ -41559,7 +41588,7 @@
       "ToBuildDependencies": [
         224
       ],
-      "DebugActionIndex": 325
+      "DebugActionIndex": 342
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb",
@@ -41580,7 +41609,7 @@
       "ToBuildDependencies": [
         224
       ],
-      "DebugActionIndex": 326
+      "DebugActionIndex": 343
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.UI.dll",
@@ -41601,7 +41630,7 @@
       "ToBuildDependencies": [
         121
       ],
-      "DebugActionIndex": 327
+      "DebugActionIndex": 344
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEngine.UI.pdb",
@@ -41622,7 +41651,7 @@
       "ToBuildDependencies": [
         121
       ],
-      "DebugActionIndex": 328
+      "DebugActionIndex": 345
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.UI.dll",
@@ -41643,7 +41672,7 @@
       "ToBuildDependencies": [
         143
       ],
-      "DebugActionIndex": 329
+      "DebugActionIndex": 346
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/UnityEditor.UI.pdb",
@@ -41664,7 +41693,7 @@
       "ToBuildDependencies": [
         143
       ],
-      "DebugActionIndex": 330
+      "DebugActionIndex": 347
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll",
@@ -41685,7 +41714,7 @@
       "ToBuildDependencies": [
         151
       ],
-      "DebugActionIndex": 331
+      "DebugActionIndex": 348
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.2D.Sprite.Editor.pdb",
@@ -41706,7 +41735,7 @@
       "ToBuildDependencies": [
         151
       ],
-      "DebugActionIndex": 332
+      "DebugActionIndex": 349
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll",
@@ -41727,7 +41756,7 @@
       "ToBuildDependencies": [
         158
       ],
-      "DebugActionIndex": 333
+      "DebugActionIndex": 350
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.pdb",
@@ -41748,7 +41777,7 @@
       "ToBuildDependencies": [
         158
       ],
-      "DebugActionIndex": 334
+      "DebugActionIndex": 351
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll",
@@ -41769,7 +41798,7 @@
       "ToBuildDependencies": [
         164
       ],
-      "DebugActionIndex": 335
+      "DebugActionIndex": 352
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.pdb",
@@ -41790,7 +41819,7 @@
       "ToBuildDependencies": [
         164
       ],
-      "DebugActionIndex": 336
+      "DebugActionIndex": 353
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll",
@@ -41811,7 +41840,7 @@
       "ToBuildDependencies": [
         170
       ],
-      "DebugActionIndex": 337
+      "DebugActionIndex": 354
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb",
@@ -41832,7 +41861,7 @@
       "ToBuildDependencies": [
         170
       ],
-      "DebugActionIndex": 338
+      "DebugActionIndex": 355
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Settings.Editor.dll",
@@ -41853,7 +41882,7 @@
       "ToBuildDependencies": [
         182
       ],
-      "DebugActionIndex": 339
+      "DebugActionIndex": 356
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Settings.Editor.pdb",
@@ -41874,7 +41903,7 @@
       "ToBuildDependencies": [
         182
       ],
-      "DebugActionIndex": 340
+      "DebugActionIndex": 357
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll",
@@ -41895,7 +41924,7 @@
       "ToBuildDependencies": [
         188
       ],
-      "DebugActionIndex": 341
+      "DebugActionIndex": 358
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.SysrootPackage.Editor.pdb",
@@ -41916,7 +41945,7 @@
       "ToBuildDependencies": [
         188
       ],
-      "DebugActionIndex": 342
+      "DebugActionIndex": 359
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll",
@@ -41937,7 +41966,7 @@
       "ToBuildDependencies": [
         194
       ],
-      "DebugActionIndex": 343
+      "DebugActionIndex": 360
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb",
@@ -41958,7 +41987,7 @@
       "ToBuildDependencies": [
         194
       ],
-      "DebugActionIndex": 344
+      "DebugActionIndex": 361
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll",
@@ -41979,7 +42008,7 @@
       "ToBuildDependencies": [
         200
       ],
-      "DebugActionIndex": 345
+      "DebugActionIndex": 362
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb",
@@ -42000,7 +42029,7 @@
       "ToBuildDependencies": [
         200
       ],
-      "DebugActionIndex": 346
+      "DebugActionIndex": 363
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.dll",
@@ -42021,7 +42050,7 @@
       "ToBuildDependencies": [
         206
       ],
-      "DebugActionIndex": 347
+      "DebugActionIndex": 364
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.pdb",
@@ -42042,7 +42071,7 @@
       "ToBuildDependencies": [
         206
       ],
-      "DebugActionIndex": 348
+      "DebugActionIndex": 365
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.dll",
@@ -42063,7 +42092,7 @@
       "ToBuildDependencies": [
         212
       ],
-      "DebugActionIndex": 349
+      "DebugActionIndex": 366
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.pdb",
@@ -42084,7 +42113,7 @@
       "ToBuildDependencies": [
         212
       ],
-      "DebugActionIndex": 350
+      "DebugActionIndex": 367
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
@@ -42105,7 +42134,7 @@
       "ToBuildDependencies": [
         218
       ],
-      "DebugActionIndex": 351
+      "DebugActionIndex": 368
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.pdb",
@@ -42126,7 +42155,7 @@
       "ToBuildDependencies": [
         218
       ],
-      "DebugActionIndex": 352
+      "DebugActionIndex": 369
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll",
@@ -42147,7 +42176,7 @@
       "ToBuildDependencies": [
         230
       ],
-      "DebugActionIndex": 353
+      "DebugActionIndex": 370
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb",
@@ -42168,7 +42197,7 @@
       "ToBuildDependencies": [
         230
       ],
-      "DebugActionIndex": 354
+      "DebugActionIndex": 371
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll",
@@ -42189,7 +42218,7 @@
       "ToBuildDependencies": [
         237
       ],
-      "DebugActionIndex": 355
+      "DebugActionIndex": 372
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.pdb",
@@ -42210,7 +42239,7 @@
       "ToBuildDependencies": [
         237
       ],
-      "DebugActionIndex": 356
+      "DebugActionIndex": 373
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll",
@@ -42231,7 +42260,7 @@
       "ToBuildDependencies": [
         244
       ],
-      "DebugActionIndex": 357
+      "DebugActionIndex": 374
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.pdb",
@@ -42252,7 +42281,7 @@
       "ToBuildDependencies": [
         244
       ],
-      "DebugActionIndex": 358
+      "DebugActionIndex": 375
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll",
@@ -42273,7 +42302,7 @@
       "ToBuildDependencies": [
         253
       ],
-      "DebugActionIndex": 359
+      "DebugActionIndex": 376
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb",
@@ -42294,7 +42323,7 @@
       "ToBuildDependencies": [
         253
       ],
-      "DebugActionIndex": 360
+      "DebugActionIndex": 377
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.dll",
@@ -42315,7 +42344,7 @@
       "ToBuildDependencies": [
         260
       ],
-      "DebugActionIndex": 361
+      "DebugActionIndex": 378
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.pdb",
@@ -42336,7 +42365,7 @@
       "ToBuildDependencies": [
         260
       ],
-      "DebugActionIndex": 362
+      "DebugActionIndex": 379
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll",
@@ -42357,7 +42386,7 @@
       "ToBuildDependencies": [
         267
       ],
-      "DebugActionIndex": 363
+      "DebugActionIndex": 380
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.pdb",
@@ -42378,7 +42407,7 @@
       "ToBuildDependencies": [
         267
       ],
-      "DebugActionIndex": 364
+      "DebugActionIndex": 381
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
@@ -42399,7 +42428,7 @@
       "ToBuildDependencies": [
         274
       ],
-      "DebugActionIndex": 365
+      "DebugActionIndex": 382
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.pdb",
@@ -42420,7 +42449,7 @@
       "ToBuildDependencies": [
         274
       ],
-      "DebugActionIndex": 366
+      "DebugActionIndex": 383
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll",
@@ -42441,7 +42470,7 @@
       "ToBuildDependencies": [
         280
       ],
-      "DebugActionIndex": 367
+      "DebugActionIndex": 384
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.pdb",
@@ -42462,7 +42491,7 @@
       "ToBuildDependencies": [
         280
       ],
-      "DebugActionIndex": 368
+      "DebugActionIndex": 385
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll",
@@ -42483,7 +42512,7 @@
       "ToBuildDependencies": [
         287
       ],
-      "DebugActionIndex": 369
+      "DebugActionIndex": 386
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.pdb",
@@ -42504,7 +42533,7 @@
       "ToBuildDependencies": [
         287
       ],
-      "DebugActionIndex": 370
+      "DebugActionIndex": 387
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
@@ -42525,7 +42554,7 @@
       "ToBuildDependencies": [
         295
       ],
-      "DebugActionIndex": 371
+      "DebugActionIndex": 388
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.pdb",
@@ -42546,7 +42575,7 @@
       "ToBuildDependencies": [
         295
       ],
-      "DebugActionIndex": 372
+      "DebugActionIndex": 389
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll",
@@ -42567,7 +42596,7 @@
       "ToBuildDependencies": [
         301
       ],
-      "DebugActionIndex": 373
+      "DebugActionIndex": 390
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.pdb",
@@ -42588,7 +42617,7 @@
       "ToBuildDependencies": [
         301
       ],
-      "DebugActionIndex": 374
+      "DebugActionIndex": 391
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll",
@@ -42609,7 +42638,7 @@
       "ToBuildDependencies": [
         309
       ],
-      "DebugActionIndex": 375
+      "DebugActionIndex": 392
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.pdb",
@@ -42630,7 +42659,7 @@
       "ToBuildDependencies": [
         309
       ],
-      "DebugActionIndex": 376
+      "DebugActionIndex": 393
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll",
@@ -42651,7 +42680,7 @@
       "ToBuildDependencies": [
         315
       ],
-      "DebugActionIndex": 377
+      "DebugActionIndex": 394
     },
     {
       "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.pdb",
@@ -42672,15 +42701,58 @@
       "ToBuildDependencies": [
         315
       ],
-      "DebugActionIndex": 378
+      "DebugActionIndex": 395
+    },
+    {
+      "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll",
+      "DisplayName": "Copying Assembly-CSharp.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Library/ScriptAssemblies/Assembly-CSharp.dll"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "ToBuildDependencies": [
+        322
+      ],
+      "DebugActionIndex": 396
+    },
+    {
+      "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb",
+      "DisplayName": "Copying Assembly-CSharp.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.pdb"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Library/ScriptAssemblies/Assembly-CSharp.pdb"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "ToBuildDependencies": [
+        322
+      ],
+      "DebugActionIndex": 397
     },
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "Extracting script serialization layouts",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\PackageCache\\com.unity.ext.nunit@2.0.5\\net40\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.5\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.7f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.7f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.7f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.7f1\\Editor\\Data\\NetStandard\\EditorExtensions\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.7f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.7f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\PackageCache\\com.unity.ext.nunit@2.0.5\\net40\\unity-custom\" -s=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.5\\lib\\ReportGenerator\" -s=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\PackageCache\\com.unity.ext.nunit@2.0.5\\net40\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.5\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.7f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.7f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.7f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.7f1\\Editor\\Data\\NetStandard\\EditorExtensions\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.7f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.7f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\PackageCache\\com.unity.ext.nunit@2.0.5\\net40\\unity-custom\" -s=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.5\\lib\\ReportGenerator\" -s=\"C:\\Users\\areeb\\Desktop\\gameproductiona2\\My project (1)\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
+        "Library/ScriptAssemblies/Assembly-CSharp.dll",
         "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
         "Library/ScriptAssemblies/Unity.Timeline.dll",
         "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
@@ -42704,6 +42776,7 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "Outputs": [
@@ -42713,17 +42786,18 @@
         0
       ],
       "ToBuildDependencies": [
-        319,
-        327,
-        347,
-        349,
-        351,
-        365,
-        371
+        336,
+        344,
+        364,
+        366,
+        368,
+        382,
+        388,
+        396
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 379
+      "DebugActionIndex": 398
     },
     {
       "Annotation": "ScriptAssembliesAndTypeDB",
@@ -42734,9 +42808,9 @@
       "OutputFlags": [],
       "ToBuildDependencies": [
         6,
-        379
+        398
       ],
-      "DebugActionIndex": 380
+      "DebugActionIndex": 399
     }
   ],
   "FileSignatures": [
@@ -42984,7 +43058,7 @@
         "NamedNodes": {
           "all_tundra_nodes": 0,
           "ScriptAssemblies": 6,
-          "ScriptAssembliesAndTypeDB": 380
+          "ScriptAssembliesAndTypeDB": 399
         }
 ,  "DefaultNodes": [
     0
