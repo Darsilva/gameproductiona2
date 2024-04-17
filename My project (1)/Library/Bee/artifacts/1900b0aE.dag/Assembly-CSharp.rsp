@@ -390,7 +390,20 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/AudioManager.cs"
+"Assets/DialogNodeBasedSystem/Scripts/Demo/TestDialogStarter.cs"
+"Assets/DialogNodeBasedSystem/Scripts/Dialog/AnswerPanel.cs"
+"Assets/DialogNodeBasedSystem/Scripts/Dialog/DialogBehaviour.cs"
+"Assets/DialogNodeBasedSystem/Scripts/Dialog/DialogDisplayer.cs"
+"Assets/DialogNodeBasedSystem/Scripts/Dialog/DialogExternalFunctionsHandler.cs"
+"Assets/DialogNodeBasedSystem/Scripts/Dialog/SentencePanel.cs"
+"Assets/DialogNodeBasedSystem/Scripts/Misc/Sentence.cs"
+"Assets/DialogNodeBasedSystem/Scripts/Misc/StringConstants.cs"
+"Assets/DialogNodeBasedSystem/Scripts/Nodes/AnswerNode.cs"
+"Assets/DialogNodeBasedSystem/Scripts/Nodes/DialogNodeGraph.cs"
+"Assets/DialogNodeBasedSystem/Scripts/Nodes/Node.cs"
+"Assets/DialogNodeBasedSystem/Scripts/Nodes/SentenceNode.cs"
 "Assets/menu.cs"
+"Assets/testDialog.cs"
 -langversion:9.0
 
 /deterministic
